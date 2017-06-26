@@ -1,0 +1,54 @@
+body{
+	font-family: "Open Sans", Arial, sans-serif;
+}
+nav{
+	background-color: #b5ce00;
+}
+li{
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+.header-inner{
+	background-color: #efefef;
+}
+img{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.col-lg-4 h6{
+	background-color: #b5ce00;
+	color: white;
+}
+
+#mob{
+	background: url(img/Android-pixabay-oeil-351x185.png);
+	width: 351px;
+	height: 185px;
+	margin-right: 0;
+}
+
+#apps{
+	background: url(img/Ink-Hunter-1-351x185.png);
+	width: 351px;
+	height: 185px;
+	margin-right: 0;
+}
+
+#obco{
+	background: url(img/smartress-351x185.jpg);
+	width: 351px;
+	height: 185px;
+	margin-right: 0;
+}
+
+#logomaki{
+	width: 90px;
+	height: 90px;
+	display: inline;
+}
+
+.reseaux{
+	margin-right: 20px;
+}
