@@ -10,80 +10,88 @@
 	<link rel="stylesheet" type="text/css" href="custom.css">
 </head>
 <body>
-<header>
-	<nav>
-		<ul>
-			<li>WEB</li>
-			<li>TECH AND GADGET</li>
-			<li>STARTUPS</li>
-			<li>AUTO-MOTO</li>
-			<li>MOBILE</li>
-		</ul>
-	</nav>
-	<div class="header-inner">
-		<img src="img/Elections-vote-démocratie-pixabay-1077x336.jpg">
-	</div>
-</header>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">WEB</a></li>
+            <li><a href="#">TECH & GADGET</a></li>
+            <li><a href="#">STARTUPS</a></li>
+            <li><a href="#">AUTO-MOTO</a></li>
+            <li><a href="#">MOBILE</a></li>                
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<section>
-<div class="row marketing">
+    <div class="header-inner">
+      <div class="container">
+        <img src="img/Elections-vote-démocratie-pixabay-1077x336.jpg">      
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="row marketing">
         <div class="col-lg-4">
-          <h6 id="mob">MOBILE</h6>
-		<hr>
-          <h6 id="apps">APPLICATIONS</h6>
-		<hr>
-          <h6 id="obco">OBJETS CONNECTÉS</h6>
+          <h6 id="mob" class="title-article">MOBILE</h6>
+          <img class="img-article" id="mobile" src="img/Android-pixabay-oeil-351x185.png">
+          <hr>
+          <h6 id="apps" class="title-article">APPLICATIONS</h6>
+          <img class="img-article" id="img-application" src="img/Ink-Hunter-1-351x185.png">
+
+          <hr>
+          <h6 id="obco" class="title-article">OBJETS CONNECTÉS</h6>
+          <img class="img-article" id="img-objet" src="img/smartress-351x185.jpg">
         </div>
 
         <div class="col-lg-4">
           <h6>18 AVRIL 2016 | Setra</h6>
-          <h2>Un "mode réalité virtuelle" sur la prochaine version d'Android ?</h2>
+          <h3>Un "mode réalité virtuelle" sur la prochaine version d'Android ?</h3>
           <p>La nouvemme preview d'Android contient des références à un "VR Mode" ainsi qu'à deux catégories d'applications appelées VR Helper et VR Listener.</p>
           <hr>
 
           <h6>18 AVRIL 2016 | Setra</h6>
-          <h2>Ink Hunter, une appli pour texter les tatouages (et éviter l'irréparable)</h2>          
+          <h3>Ink Hunter, une appli pour texter les tatouages (et éviter l'irréparable)</h3>          
           <p>En créant cette application, Kateryna Khotkevych rend un grand service à l'humanité.</p>
           <hr>
 
           <h6>18 AVRIL 2016 | Eric</h6>
-          <h2>Le matelas connecté qui vous prévient si votre conjoint vous trompe</h2>
+          <h3>Le matelas connecté qui vous prévient si votre conjoint vous trompe</h3>
           <p>Une entreprise madrilène commercialise un matelas qui envoie une alert sur un smartphone en cas de mouvements suspects.</p>
         </div>
 
-		<div class="col-lg-4">
-          <h6>L'APPLI DU JOUR</h6>
-          <img id="logomaki" src="img/250_250_1460447909.png">
-          <p><span id="CM">Crazy Makis</span></p>
-          <p>Dans ce jeu de réflexion inspiré du Sudoku, vous ne manipulez pas des chiffres mais des makis, casse-tête garanti !</p>
-          <img class="reseaux" src="img/facebook.jpg">
-          <img class="reseaux" src="img/twitter.jpg">
-          <img class="reseaux" src="img/google.jpg">
-          <img class="reseaux" src="img/rss.jpg">
+        <div class="col-lg-4" id="col-right">
+          <h6 class="right">L'APPLI DU JOUR</h6>
+          <div class="reseaux-logo">
+            <img id="logomaki" src="img/250_250_1460447909.png">
+            <p><span id="CM">Crazy Makis</span>
+              <br> Dans ce jeu de réflexion inspiré du Sudoku, vous ne manipulez pas des chiffres mais des makis, casse-tête garanti !</p>
+            </div>
+            <div class="reseaux-logo">
+              <img class="reseaux" src="img/facebook.jpg">
+              <img class="reseaux" src="img/twitter.jpg">
+              <img class="reseaux" src="img/google.jpg">
+              <img class="reseaux" src="img/rss.jpg">
+            </div>
 
-          <h6>IDENTIFICATION</h6>
-          <label>Username or Email</label>
-          <input type="text" name="user">
-          <br>		
-          <label>Mot de passe</label>
-          <input type="text" name="mdp">
+            <h6 class="right">IDENTIFICATION</h6>
+            <label>Username or <br> Email</label>
+            <input type="text" name="user">
+            <br>		
+            <label>Mot de passe</label>
+            <input type="text" name="mdp"><br>
+            <input type="checkbox" name="souvenir" id="checkbox"><label>Se souvenir de moi</label><br>
+            <button type="button">Se connecter</button>
 
-          <p>Se souvenir de moi</p>
-
-          <button>Se connecter</button>
-
-          <p><a href="#">S'inscrire</a> | <a href="#">Mot de passe perdu ?</a></p>
+            <p><a href="#">S'inscrire</a> | <a href="#">Mot de passe perdu ?</a></p>
+          </div>
         </div>
       </div>
-</section>
-
-
-
-
-
-
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
-</html>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+  </html>
